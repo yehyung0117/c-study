@@ -12,13 +12,13 @@ int main()
         scanf("%d %d", &x, &y);
         a[x][y]=1;
     }
-    for(i=1; i<=19; i++) //한 줄(위에서 아래로) 씩
+    for(i=1; i<=19; i++) 
     {
-        for(j=1; j<=19; j++) //한 열(왼쪽에서 오른쪽으로) 씩
+        for(j=1; j<=19; j++) 
         {
-            printf("%d ", a[i][j]); //값 출력
+            printf("%d ", a[i][j]);
         }
-    printf("\n"); //줄 바꾸기
+    printf("\n"); 
     }
     return 0;
     }
